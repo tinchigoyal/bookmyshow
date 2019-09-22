@@ -30,8 +30,3 @@ color:white;
 ## Next Steps
 1. gitignore addition
 2. grunt addition to concat JS and CSS resources
-
-## Preview URL
-http://htmlpreview.github.io/?https://github.com/tinchigoyal/bookmyshow/blob/master/index.html
-
-> This is a inbuilt github preview URL. Delivery of resources is different from usual when preview using this page.
