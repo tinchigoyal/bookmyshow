@@ -63,7 +63,7 @@ button.bmh-search {
 }
 
 .bmh-name {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
     line-height: 1.5;
 }
@@ -75,7 +75,7 @@ button.bmh-search {
 }
 
 .bmh-room {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.5;
     margin-top: 15px;
 }
