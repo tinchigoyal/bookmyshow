@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book My House</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/header.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/common.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/home.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+
+    <script src="assets/js/config.js" type="text/javascript"></script>
+    <script src="assets/js/controller.js" type="text/javascript"></script>
+    <script src="assets/js/service.js" type="text/javascript"></script>
+
+</head>
+<body>
+<!------------------Header section start------------------->
+
+<header class="bmh-header">
+    <div class="container header-flex">
+        <div class="header-logo bmh-primary-color">
+            <div>Book My House</div>
+        </div>
+        <div class="header-nav">
+            <ul class="header-ul">
+                <li class="header-list"> Home</li>
+                <li class="header-list"> About</li>
+                <li class="header-list"> Categories</li>
+                <li class="header-list"> Pricing</li>
+                <li class="header-list"> Contact</li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+
+<!-------------------home page start------------------------->
+
+<div class="bmh-home">
+    <section class=" search-section-bg-image">
+        <div class="bmh-primary-bg">
+            <h1 class="bmh-heading bmh-secondary-color">World's fastest growing house chain</h1>
+            <input type="text" placeholder="Search by user" class="bmh-input" id="search-user" required>
+            <button class="bmh-search bmh-secondary-bg bmh-secondary-color" id="search-button"
+                    onclick="fetchUserHouses()"> Search
+            </button>
+        </div>
+    </section>
+    <section class="booking-section container">
+        <div class="booking-flex">
+            <div class="available-for-booking">
+                <div id="booking-heading">
+                </div>
+                <ul class="booking-ul" id="booking-list">
+                </ul>
+            </div>
+            <div class="booked">
+                <div id="booked-heading">
+                </div>
+                <ul class="booking-ul" id="booked-list">
+                </ul>
+            </div>
+        </div>
+    </section>
+</div>
+<div class="booked-count bmh-secondary-bg bmh-secondary-color" onclick="scrollMe('booked-heading')">
+    <span id="booking-count-floater">0</span> booked
+</div>
+</body>
+</html>

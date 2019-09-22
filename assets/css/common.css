@@ -1,0 +1,49 @@
+.container{
+    max-width:1250px;
+    margin:auto;
+}
+
+.bmh-primary-color{
+color:#df293a;
+}
+
+.bmh-secondary-color{
+color:white;
+}
+
+.bmh-primary-bg{
+    background: linear-gradient(135.46deg,#d11450ab,#df293a94);
+}
+
+.bmh-secondary-bg{
+    background:#1ab64f;
+}
+body{
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+@keyframes slide-left {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+.alert {
+    background: #000;
+    color: white;
+    padding: 15px;
+    position: fixed;
+    top: 40px;
+    right: 20px;
+    z-index: 1000;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px 1px #4b4a4a;
+    animation: slide-left 0.4s linear;
+}

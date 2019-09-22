@@ -1,0 +1,23 @@
+.container.header-flex {
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+}
+ul.header-ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+li.header-list {
+    padding: 0px 22px;
+    font-size: 18px;
+}
+.header-logo {
+    width: 30%;
+    font-size: 34px;
+    font-weight: 800;
+}
+.header-nav {
+    width: 70%;
+}

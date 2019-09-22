@@ -1,0 +1,121 @@
+h1.bmh-heading {
+    padding: 40px 0px 0px 0px;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 1.5;
+    margin-top: 0px;
+}
+
+.bmh-home{
+
+}
+
+input.bmh-input {
+    width: 40%;
+    height: 50px;
+    margin: 0px 0px 30px 0px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 3px;
+    border: none;
+}
+button.bmh-search {
+    height: 53px;
+    margin: 0px 0px 30px 0px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 3px;
+    border: none;
+    width: 10%;
+}
+
+.search-section-bg-image{
+    background-image: url(http://www.sclance.com/backgrounds/house-background/house-background_1220340.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.booking-flex{
+    display:flex;
+}
+
+.available-for-booking, .booked{
+    width:50%;
+}
+
+.booking-heading {
+    text-align: center;
+}
+
+.booking-ul {
+    list-style: none;
+}
+
+.booking-list {
+    position: relative;
+    margin-bottom: 15px;
+    box-shadow: 0px 2px 5px 0px #cccccc6b;
+    padding: 15px;
+    border-radius: 5px;
+    animation: slide-left 0.4s linear;
+}
+
+.bmh-name {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+
+.bmh-identifier {
+    color: #6d6d6d;
+    font-size: 12px;
+}
+
+.bmh-room {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 15px;
+}
+
+.bmh-book {
+    border-radius: 21px;
+    border: none;
+    padding: 8px 16px;
+    font-size: 16px;
+}
+
+.booking-list-flex {
+    display: flex;
+    align-items: center;
+}
+
+.bmh-icon{
+    width:22%;
+}
+.bmh-details{
+    width:60%;
+}
+
+.bmh-flex-button{
+    width:15%;
+}
+
+.booked-count {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    padding: 15px;
+    border-radius: 50%;
+    height: 31px;
+    width: 40px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    box-shadow: 0px 0px 5px 0px #090909;
+    cursor: pointer;
+}
+
